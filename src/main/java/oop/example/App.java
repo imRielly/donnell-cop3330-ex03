@@ -30,11 +30,12 @@ public class App
 {
     public static void main( String[] args ){
         Scanner in = new Scanner(System.in);
-        System.out.print("What is the quote?");
+        System.out.print("What is the quote? ");
         String quote = in.nextLine();
-        System.out.print("Who said it?");
+        System.out.print("Who said it? ");
         String author = in.nextLine();
-        String output = String.format("%s says, \"%s.\"", author, quote);
+        //String output = String.format("%s says, \"%s.\"", author, quote);
+        String output = author + " says, \"" + quote + "\"";
         System.out.println(output);
     }
 }
