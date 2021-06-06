@@ -1,3 +1,8 @@
+/*
+ *  UCF COP3330 Summer 2021 Assignment 1 Solution
+ *  Copyright 2021 Rielly Donnell
+ */
+
 package oop.example;
 /*Exercise 3 - Printing Quotes
 Quotation marks are often used to denote the start and end of a string.
